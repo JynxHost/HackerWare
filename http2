@@ -1,0 +1,22 @@
+<h2>Orbit launcher</h2>
+<br />
+
+Username:
+<br />
+<input id="username" autocomplete="username" style="width: 100%;background: linear-gradient(#ccc, #fff);border: 2px solid #222;" />
+<br />
+<br />
+
+Password:
+<br />
+<input type="password" id="password" autocomplete="current-password" style="width: calc(100% - 155px);background: linear-gradient(#ccc, #fff);border: 2px solid #222;" />
+<button id="show" style="width: 150px;background: linear-gradient(#ccc, #fff);border: 2px solid #222;">
+    Show Password
+</button>
+<br />
+<br />
+
+<span id="status">...</span>
+<button id="launch" style="width: 100%;background: linear-gradient(#ccc, #fff);border: 2px solid #222;">
+    ⌛
+</button>
