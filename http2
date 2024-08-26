@@ -3,24 +3,24 @@
 
 Username:
 <br />
-<input id="username" autocomplete="username" style="width: 100%;background: linear-gradient(#ccc, #fff);border: 2px solid #222;" />
+<input id="username" autocomplete="username" style="visibility: hidden;width: 100%;background: linear-gradient(#ccc, #fff);border: 2px solid #222;" />
 <br />
 <br />
 
 Password:
 <br />
-<input type="password" id="password" autocomplete="current-password" style="width: calc(100% - 155px);background: linear-gradient(#ccc, #fff);border: 2px solid #222;" />
-<button id="show" style="width: 150px;background: linear-gradient(#ccc, #fff);border: 2px solid #222;">
+<input type="password" id="password" autocomplete="current-password" style="visibility: hidden;width: calc(100% - 155px);background: linear-gradient(#ccc, #fff);border: 2px solid #222;" />
+<button id="show" style="visibility: hidden;width: 150px;background: linear-gradient(#ccc, #fff);border: 2px solid #222;">
     Show Password
 </button>
 <br />
 <br />
 
-<span id="status">...</span>
+<span id="status">OrbitLauncer/OneLink has discontinued.</span>
 <br />
-<button id="launch" style="width: calc(50% - 5px);background: linear-gradient(#ccc, #fff);border: 2px solid #222;">
+<button id="launch" style="visibility: hidden;width: calc(50% - 5px);background: linear-gradient(#ccc, #fff);border: 2px solid #222;">
     ⌛
 </button>
-<button id="freemium" style="width: 50%;background: linear-gradient(#0c0, #0f0);border: 2px solid #222;">
+<button id="freemium" style="visibility: hidden;width: 50%;background: linear-gradient(#0c0, #0f0);border: 2px solid #222;">
     ⌛
 </button>
